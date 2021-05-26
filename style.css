@@ -3,7 +3,18 @@ body{
 font-family: "Josefin Sans";
 }
 h1{
-    font-size: 50px;
+    font-size: 48px;
+    color: #2B2B2B;
+}
+h2{
+    font-size: 39px;
+    color: #2B2B2B;
+}
+h3{
+    color: #2B2B2B;
+}
+p{
+    color: dimgray;
 }
 .name-highlight{
     color: rgb(248, 170, 69);
@@ -21,8 +32,51 @@ h1{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+section{
+    height: 500px;
+    padding-bottom: 500px;
+}
 .link-button{
     text-decoration: none;
     background-color: rgb(248, 170, 69);
-    padding: 10px ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
 }
+.experience-center{
+    text-align: center;
+}
+.experience-peragraph{
+    text-align: justify;
+}
+.dream-aria{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.singel-experience{
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 50%;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#full-stack{
+    border-left: 5px solid;
+    border-image: #d2691e;
+    border-image-slice: 1;
+    border-color: #FA705B;
+
+}
+#New{
+    border-left: 5px solid;
+    border-color: #F8AA45;
+}
+.copyright{
+    text-align: center;
+}
+    
+
